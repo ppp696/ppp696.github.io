@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>我的個人頁面</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      margin-top: 80px;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      border: none;
+      border-radius: 8px;
+      background-color: #4CAF50;
+      color: white;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>嗨！這是我的 GitHub 個人頁面 🎉</h1>
+  <p id="message">按下按鈕看看 jQuery 功能 👇</p>
+  <button id="btn">點我</button>
+
+  <script>
+    $("#btn").click(function() {
+      $("#message").text("你成功用了 jQuery！🚀");
+    });
+  </script>
+</body>
+</html>
