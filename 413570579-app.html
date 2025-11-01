@@ -1,0 +1,37 @@
+mkdir student-wellness-app
+cd student-wellness-app
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>我的 Github Page（含 jQuery 範例）</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- jQuery CDN -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+  <header>
+    <h1>歡迎來到我的個人頁面</h1>
+  </header>
+
+  <main>
+    <section id="todo">
+      <h2>互動範例：待辦清單</h2>
+      <input id="new-task" placeholder="輸入待辦事項並按 Enter" />
+      <ul id="task-list"></ul>
+    </section>
+
+    <section id="data-load">
+      <h2>AJAX 範例</h2>
+      <button id="load-data">載入範例資料</button>
+      <div id="data-output"></div>
+    </section>
+  </main>
+
+  <footer>© 2025 你的名字</footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
+
